@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Telegram + Configure RDP
         run: |
-          $env:TELEGRAM_TOKEN = 8472357149:AAF3uSyhEioqHrLz-cFAQITC0GryNsM3_bY"
+          $env:TELEGRAM_TOKEN = "8472357149:AAF3uSyhEioqHrLz-cFAQITC0GryNsM3_bY"
           $env:CHAT_ID = "7152889215"
 
           function Send-TG { param([string]$msg)
@@ -31,7 +31,7 @@ jobs:
 
       - name: Create RDP User
         run: |
-          $env:TELEGRAM_TOKEN = 8472357149:AAF3uSyhEioqHrLz-cFAQITC0GryNsM3_bY"
+          $env:TELEGRAM_TOKEN = "8472357149:AAF3uSyhEioqHrLz-cFAQITC0GryNsM3_bY"
           $env:CHAT_ID = "7152889215"
 
           function Send-TG { param([string]$msg)
@@ -53,7 +53,7 @@ jobs:
 
       - name: Install Tailscale
         run: |
-          $env:TELEGRAM_TOKEN = 8472357149:AAF3uSyhEioqHrLz-cFAQITC0GryNsM3_bY"
+          $env:TELEGRAM_TOKEN = "8472357149:AAF3uSyhEioqHrLz-cFAQITC0GryNsM3_bY"
           $env:CHAT_ID = "7152889215"
 
           function Send-TG { param([string]$msg)
@@ -70,7 +70,7 @@ jobs:
 
       - name: Connect Tailscale
         run: |
-          $env:TELEGRAM_TOKEN = 8472357149:AAF3uSyhEioqHrLz-cFAQITC0GryNsM3_bY"
+          $env:TELEGRAM_TOKEN = "8472357149:AAF3uSyhEioqHrLz-cFAQITC0GryNsM3_bY"
           $env:CHAT_ID = "7152889215"
 
           function Send-TG { param([string]$msg)
@@ -98,7 +98,7 @@ jobs:
 
       - name: Verify & Keep Alive
         run: |
-          $env:TELEGRAM_TOKEN = 8472357149:AAF3uSyhEioqHrLz-cFAQITC0GryNsM3_bY"
+          $env:TELEGRAM_TOKEN = "8472357149:AAF3uSyhEioqHrLz-cFAQITC0GryNsM3_bY"
           $env:CHAT_ID = "7152889215"
 
           function Send-TG { param([string]$msg)
